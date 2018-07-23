@@ -13,16 +13,11 @@ catch (Exception $e)
 
 
 
-
-
-
   $reponse = $bdd->query('SELECT * FROM jeux_video');
 
-
 // THEORIE :  $donnees = $reponse->fetch();  // fetch = "va chercher"
-  /* Ci-DESSUS : $donnees deviendra un array après qu'éléments soient récupérées
+  /* Ci-DESSOUS : $donnees deviendra un array après qu'éléments soient récupérées
   dans un phpmyadmin ligne après lignes */
-
 while($donnees = $reponse->fetch())
 {
 ?>
@@ -51,5 +46,6 @@ while($donnees = $reponse->fetch())
 }
 
 $reponse->closeCursor();
+ // Il faut le mettre pour le fermeture du curseur s'analyse des résultats.
 
 ?>
