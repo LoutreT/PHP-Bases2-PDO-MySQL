@@ -5,13 +5,6 @@
     <title>TP Mini-Chat</title>
   </head>
 
-  <style>
-    form
-    {
-        text-align:center;
-    }
-    </style>
-
   <body>
       <form class="" action="Chap26minichat_post.php" method="POST">
         <p>
