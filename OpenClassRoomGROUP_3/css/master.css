@@ -14,9 +14,15 @@ body{
   border-radius: 20px;
 } */
 
-h4{
-  color:black;
+h5{
+  color:blue;
   font-family: sans-serif; /* Sans bouts courbus sur chaque lettre.*/
   text-align: center;
-  /*text-transform: uppercase;/*transforme en majuscule toutes les lettres*/
+  text-transform: uppercase; /*transforme en majuscule toutes les lettres*/
 }
+
+/* h6{
+  color:green;
+  font-family: sans-serif; // Sans bouts courbus sur chaque lettre.
+  text-align: center;
+} */

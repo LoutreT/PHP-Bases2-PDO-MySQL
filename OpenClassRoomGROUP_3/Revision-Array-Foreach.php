@@ -40,15 +40,15 @@
 
     <table>
       <tr>
-        <h4>Pays Européens</h4>
+        <h5>Pays Européens</h5>
       </tr>
 
-        <?php
-          foreach($PaysEuropeens as $Pays){
-          echo "<tr>$Pays</tr><br>";
-          // echo "<br>";
-          }
-        ?>
+      <?php
+        foreach($PaysEuropeens as $Pays){
+        echo "<tr>$Pays</tr><br>";
+        // echo "<br>";
+        }
+      ?>
 
     </table>
 
