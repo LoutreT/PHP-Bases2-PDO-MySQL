@@ -18,7 +18,7 @@
 
 ////// Afficher un pays //////////////////////////////////////////
       echo $PaysEuropeens[4],"<br><hr>";
-      echo $PaysEuropeens('Belgique'),"<br><hr>";
+      // echo "<br><hr>";
 
 ////// Afficher les pays du tableau //////////////////////////////
       print_r($PaysEuropeens);
@@ -28,12 +28,28 @@
       $nombreDePays = count($PaysEuropeens);
       echo $nombreDePays,"<br><hr>";
 
+////// Rajouter une information  /////////////////////////////////
+      array_push($PaysEuropeens, "Vatican");
+      array_push($PaysEuropeens, 43);
+
 ////// Afficher les pays du tableau //////////////////////////////
       var_dump($PaysEuropeens);
 
-//////
-
     ?>
+
+    <table>
+      <tr>
+        <h4>Pays Européens</h4>
+      </tr>
+
+        <?php
+          foreach($PaysEuropeens as $Pays){
+          echo "<tr>$Pays</tr><br>";
+          // echo "<br>";
+          }
+        ?>
+
+    </table>
 
   </body>
 </html>
