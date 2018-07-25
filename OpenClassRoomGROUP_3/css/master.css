@@ -1,0 +1,22 @@
+body{
+  background: red;
+  min-width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* #fenetre{
+  width: 320px;
+  margin-left: 20px;
+  margin-top:20px;
+  margin-bottom:20px;
+  padding:10px;
+  border-radius: 20px;
+} */
+
+h4{
+  color:black;
+  font-family: sans-serif; /* Sans bouts courbus sur chaque lettre.*/
+  text-align: center;
+  /*text-transform: uppercase;/*transforme en majuscule toutes les lettres*/
+}
