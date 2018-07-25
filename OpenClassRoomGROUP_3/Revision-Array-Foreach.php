@@ -18,6 +18,7 @@
 
 ////// Afficher un pays //////////////////////////////////////////
       echo $PaysEuropeens[4],"<br><hr>";
+      echo $PaysEuropeens('Belgique'),"<br><hr>";
 
 ////// Afficher les pays du tableau //////////////////////////////
       print_r($PaysEuropeens);
@@ -30,7 +31,7 @@
 ////// Afficher les pays du tableau //////////////////////////////
       var_dump($PaysEuropeens);
 
-////// 
+//////
 
     ?>
 
